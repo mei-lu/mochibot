@@ -1,0 +1,20 @@
+{
+  "name": "mochibot",
+  "version": "1.0.0",
+  "description": "A discord bot for getting kaomoji",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Mei Lu",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
